@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Taylor's Portfolio - Blank Project</title>
+  <title>Taylor's Portfolio - AI Robot Localization</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -44,8 +44,7 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
-      <?php  include('navbar.html'); ?> 
-    </div>
+      <script src="navbar.html"></script>
     </div>
   </header><!-- End Header -->
 
@@ -56,10 +55,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfoio Details</h2>
+          <h2>AI Robot Localization</h2>
           <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Portfoio Details</li>
+            <li><a href="index.html">Home</a></li>
+            <li>AI Robot Localization</li>
           </ol>
         </div>
 
@@ -77,15 +76,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/portfolio/robotmaze.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/portfolio/AI_maze1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio/AI_maze2.png" alt="">
                 </div>
 
               </div>
@@ -97,17 +96,32 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: AI Program</li>
+                <li><strong>Project date</strong>: November 2022</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/taywil612/TaylorPortfolio/tree/main/AI_Robot_Localization">AI Robot Localization</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Details</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                This project's main goal is to implement robot localization with the HMM algorithm. The robot performs two actions, sensing and moving. Multiple elements are implemented for this to be possible, including transitional probability, evidence conditional probability, filtering, and prediction. <br>
+                <br>
+                Transitional probabilities are calculated through the prediction function, where all possible actions (north,west,south,east) are initialized and are connected with the probability of the robot not moving.<br>
+                <br>
+                For moving westward, PW(St+1=B|St=A) = 0.10, and for moving northward PN(St+1=B|St=A) = 0.80.  The evidence conditional probability is generated with the filtering function, with  P(Zt,w,n,e,s|St).
               </p>
+
+
+              <br>
+              <div class="resume-item">
+                <a href="file/Artificial Intelligence - Programming 2.pdf" target="_blank">Click here to read more of this project's information!</a>
+              </div>
+
+              <br>
+              <div class="resume-item">
+                <a href="file/P2_AI.pdf" target="_blank">Click here to read more of this project's information!</a>
+              </div>
+
             </div>
           </div>
 
